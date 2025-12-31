@@ -1,5 +1,6 @@
 # 🚀 PhantomXSS Scanner v2.0 🌩️💥
-
+#test lab 
+```https://labs.krazeplanet.com/xss/ ```
 **PhantomXSS** is the **ultimate** Perl-powered XSS vulnerability scanner that obliterates boring security tools with its **blazing-fast** crawling, **vibrant** output, and **hard-hitting** detection for Reflected, Stored, and DOM-based XSS. With a 🔥 *sick* ASCII art banner and 🎨 rainbow-colored console, it’s the **badass** choice for pentesters and bug bounty hunters who want to *stand out* and *own the game*! 🏴‍☠️
 
 ---
